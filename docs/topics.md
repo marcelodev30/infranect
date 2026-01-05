@@ -30,7 +30,7 @@ Este documento define o **padrão oficial de tópicos MQTT** usados no ecossiste
 ```json
 {
   "device_type": "ir_bridge",
-  "mac":"",
+  "mac":"AA:BB:CC:DD:EE:FF",
   "firmware_version": "1.0.0",
   "ip_address": "192.168.0.100",
   "wifi_signal": -74,
@@ -80,7 +80,7 @@ infranect/<mac>/ir/send
 --- 
 # 🌡️ Temperatura
 
-**Backend → ESP**
+**ESP → Backend**
 
 ### Tópico
 
